@@ -55,7 +55,8 @@ namespace bai18_dangkimonhoc
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            txtmssv.Clear();
+            txthoten.Clear();
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
@@ -101,6 +102,11 @@ namespace bai18_dangkimonhoc
         private void cbonienkhoa_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnthoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

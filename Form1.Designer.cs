@@ -221,6 +221,7 @@
             this.btnthoat.TabIndex = 9;
             this.btnthoat.Text = "Thoát";
             this.btnthoat.UseVisualStyleBackColor = true;
+            this.btnthoat.Click += new System.EventHandler(this.btnthoat_Click);
             // 
             // clsbmonhoc
             // 
